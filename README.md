@@ -7,7 +7,7 @@ _Decompiler‑agnostic post‑processing powered by **llm4decompile‑22b‑v2**
 
 ```bash
 # After editing config.py with your endpoint & token:
-$ python llm4decompile_clean.py -i raw_funcs.c -o clean_funcs.c
+python llm4decompile_clean.py -i raw_funcs.c -o clean_funcs.c
 ```
 
 Works with any tool that can dump its C output to a file (IDA, Ghidra, Binary Ninja, radare2, Snowman, Godbolt CE, …).
@@ -38,8 +38,8 @@ requests >= 2.32
 Install via:
 
 ```bash
-$ python -m venv .venv && source .venv/bin/activate
-$ pip install -r requirements.txt
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ## Contributing
