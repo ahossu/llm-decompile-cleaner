@@ -1,5 +1,5 @@
 # llm-decompile-cleaner
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue?logo=python)
 
 _Decompiler‑agnostic post‑processing powered by **llm4decompile‑22b‑v2**_
