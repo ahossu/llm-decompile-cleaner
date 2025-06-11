@@ -1,12 +1,13 @@
 # llm-decompile-cleaner
-![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue?logo=python)
+
 
 _Decompiler‑agnostic post‑processing powered by **llm4decompile‑22b‑v2**_
 
 ```bash
 # After editing config.py with your endpoint & token:
-python llm4decompile_clean.py -i raw_funcs.c -o clean_funcs.c
+$ python llm4decompile_clean.py -i raw_funcs.c -o clean_funcs.c
 ```
 
 Works with any tool that can dump its C output to a file (IDA, Ghidra, Binary Ninja, radare2, Snowman, Godbolt CE, …).
@@ -37,8 +38,8 @@ requests >= 2.32
 Install via:
 
 ```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+$ python -m venv .venv && source .venv/bin/activate
+$ pip install -r requirements.txt
 ```
 
 ## Contributing
