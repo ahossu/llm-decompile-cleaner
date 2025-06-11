@@ -9,5 +9,5 @@ __pycache__/
 .idea/
 .vscode/
 
-# Secrets (if you commit template only)
+# Secrets
 config.py
